@@ -8,7 +8,6 @@ import csharp from "../img/csharp.svg";
 import java from "../img/java.svg";
 import jquery from "../img/jquery.svg";
 import mysql from "../img/mysql.svg";
-import nodejs from "../img/nodejs.svg";
 import php from "../img/php.svg";
 import sql from "../img/sql.svg";
 import aws from "../img/aws.svg";
@@ -94,192 +93,113 @@ class About extends React.Component {
                             <h4 key={content.id}>
                               {content.content}
                             </h4>
-                            <br/>
-                            <br/>
-                            </React.Fragment>
+                            <br />
+                            <br />
+                          </React.Fragment>
                         );
                       })}
-                      <br/>
-                      <br/>
-                          </div>
+                      <br />
+                      <br />
+                    </div>
                   </div>
-                    <div className="col-md-6">
-                      <div className="title-box-2">
-                        <h5 className="title-left">My Shelf</h5>
+                  <div className="col-md-6">
+                    <div className="title-box-2">
+                      <h5 className="title-left">My Shelf</h5>
+                    </div>
+                    <div className="skill-mf">
+                      {/* <p className="title-s">Skill</p> */}
+                      <div style={{ display: 'flex', justifyContent: 'center' }}>
+                        &nbsp;&nbsp;&nbsp;
+                      <img
+                          src={net}
+                          alt="logo"
+                          style={{ maxWidth: "50px", maxHeight: "50px" }}
+                        />
+                            &nbsp;&nbsp;&nbsp;
+                            <img
+                          src={react}
+                          alt="logo"
+                          style={{ maxWidth: "50px", maxHeight: "50px" }}
+                        />
+                            &nbsp;&nbsp;&nbsp;
+                            <img
+                          src={csharp}
+                          alt="logo"
+                          style={{ maxWidth: "50px", maxHeight: "50px" }}
+                        />
+                      &nbsp;&nbsp;&nbsp;
                       </div>
-                      <div className="skill-mf">
-                        {/* <p className="title-s">Skill</p> */}
-                        <div style={{ display: 'flex', justifyContent: 'center' }}>
-                          &nbsp;&nbsp;&nbsp;
+                      <div className="progress">
+                        <div
+                          className="progress-bar"
+                          role="progressbar"
+                          style={{ width: '100%' }}
+                          //aria-valuenow={skill.value}
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                      <br />
+                      <div style={{ display: 'flex', justifyContent: 'center' }}>
+                        &nbsp;&nbsp;&nbsp;
                       <img
-                            src={net}
-                            alt="logo"
-                            style={{ maxWidth: "50px", maxHeight: "50px" }}
-                          />
+                          src={sql}
+                          alt="logo"
+                          style={{ maxWidth: "50px", maxHeight: "50px" }}
+                        />
                             &nbsp;&nbsp;&nbsp;
                             <img
-                            src={react}
-                            alt="logo"
-                            style={{ maxWidth: "50px", maxHeight: "50px" }}
-                          />
+                          src={mysql}
+                          alt="logo"
+                          style={{ maxWidth: "50px", maxHeight: "50px" }}
+                        />
                       &nbsp;&nbsp;&nbsp;
                       <img
-                            src={api}
-                            alt="logo"
-                            style={{ maxWidth: "50px", maxHeight: "50px" }}
-                          />
-                            &nbsp;&nbsp;&nbsp;
-                            <img
-                            src={csharp}
-                            alt="logo"
-                            style={{ maxWidth: "50px", maxHeight: "50px" }}
-                          />
+                          src={javascript}
+                          alt="logo"
+                          style={{ maxWidth: "50px", maxHeight: "50px" }}
+                        />
+                        &nbsp;&nbsp;&nbsp;
+                        <img
+                          src={html}
+                          alt="logo"
+                          style={{ maxWidth: "50px", maxHeight: "50px" }}
+                        />
                       &nbsp;&nbsp;&nbsp;
+                      </div>
+                      <div className="progress">
+                        <div
+                          className="progress-bar"
+                          role="progressbar"
+                          style={{ width: '100%' }}
+                          //aria-valuenow={skill.value}
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                      <br />
+                      <div style={{ display: 'flex', justifyContent: 'center' }}>
+                        <img
+                          src={azure}
+                          alt="logo"
+                          style={{ maxWidth: "50px", maxHeight: "50px" }}
+                        />
+                        &nbsp;&nbsp;&nbsp;
                       <img
-                            src={cplus}
-                            alt="logo"
-                            style={{ maxWidth: "50px", maxHeight: "50px" }}
-                          />
-                        </div>
-                        <div className="progress">
-                          <div
-                            className="progress-bar"
-                            role="progressbar"
-                            style={{ width: '100%' }}
-                            //aria-valuenow={skill.value}
-                            aria-valuemin="0"
-                            aria-valuemax="100"
-                          ></div>
-                        </div>
-                        <br />
-                        <div style={{ display: 'flex', justifyContent: 'center' }}>
-                          &nbsp;&nbsp;&nbsp;
-                      <img
-                            src={sql}
-                            alt="logo"
-                            style={{ maxWidth: "50px", maxHeight: "50px" }}
-                          />
-                            &nbsp;&nbsp;&nbsp;
-                            <img
-                            src={mysql}
-                            alt="logo"
-                            style={{ maxWidth: "50px", maxHeight: "50px" }}
-                          />
-                      &nbsp;&nbsp;&nbsp;
-                      <img
-                            src={oracle}
-                            alt="logo"
-                            style={{ maxWidth: "50px", maxHeight: "50px" }}
-                          />
-                            &nbsp;&nbsp;&nbsp;
-                            <img
-                            src={php}
-                            alt="logo"
-                            style={{ maxWidth: "50px", maxHeight: "50px" }}
-                          />
-                      &nbsp;&nbsp;&nbsp;
-                      <img
-                            src={javascript}
-                            alt="logo"
-                            style={{ maxWidth: "50px", maxHeight: "50px" }}
-                          />
-                        </div>
-                        <div className="progress">
-                          <div
-                            className="progress-bar"
-                            role="progressbar"
-                            style={{ width: '100%' }}
-                            //aria-valuenow={skill.value}
-                            aria-valuemin="0"
-                            aria-valuemax="100"
-                          ></div>
-                        </div>
-                        <br />
-                        <div style={{ display: 'flex', justifyContent: 'center' }}>
-                          &nbsp;&nbsp;&nbsp;
-                            <img
-                            src={azure}
-                            alt="logo"
-                            style={{ maxWidth: "50px", maxHeight: "50px" }}
-                          />
-                      &nbsp;&nbsp;&nbsp;
-                      <img
-                            src={aws}
-                            alt="logo"
-                            style={{ maxWidth: "50px", maxHeight: "50px" }}
-                          />
-                      &nbsp;&nbsp;&nbsp;
-                      <img
-                            src={android}
-                            alt="logo"
-                            style={{ maxWidth: "50px", maxHeight: "50px" }}
-                          />
-                            &nbsp;&nbsp;&nbsp;
-                            <img
-                            src={github}
-                            alt="logo"
-                            style={{ maxWidth: "50px", maxHeight: "50px" }}
-                          />
-                      &nbsp;&nbsp;&nbsp;
-                            <img
-                            src={wordpress}
-                            alt="logo"
-                            style={{ maxWidth: "50px", maxHeight: "50px" }}
-                          />
-                        </div>
-                        <div className="progress">
-                          <div
-                            className="progress-bar"
-                            role="progressbar"
-                            style={{ width: '100%' }}
-                            //aria-valuenow={skill.value}
-                            aria-valuemin="0"
-                            aria-valuemax="100"
-                          ></div>
-                        </div>
-                        <br />
-                        <div style={{ display: 'flex', justifyContent: 'center' }}>
-                          &nbsp;&nbsp;&nbsp;
-                      <img
-                            src={html}
-                            alt="logo"
-                            style={{ maxWidth: "50px", maxHeight: "50px" }}
-                          />
-                      &nbsp;&nbsp;&nbsp;
-                      <img
-                            src={java}
-                            alt="logo"
-                            style={{ maxWidth: "50px", maxHeight: "50px" }}
-                          />
-                      &nbsp;&nbsp;&nbsp;
-                      <img
-                            src={angular}
-                            alt="logo"
-                            style={{ maxWidth: "50px", maxHeight: "50px" }}
-                          />
-                            &nbsp;&nbsp;&nbsp;
-                            <img
-                            src={jquery}
-                            alt="logo"
-                            style={{ maxWidth: "50px", maxHeight: "50px" }}
-                          />
-                      &nbsp;&nbsp;&nbsp;
-                      <img
-                            src={python}
-                            alt="logo"
-                            style={{ maxWidth: "50px", maxHeight: "50px" }}
-                          />
-                        </div>
-                        <div className="progress">
-                          <div
-                            className="progress-bar"
-                            role="progressbar"
-                            style={{ width: '100%' }}
-                            //aria-valuenow={skill.value}
-                            aria-valuemin="0"
-                            aria-valuemax="100"
-                          ></div>
-                        </div>
+                          src={api}
+                          alt="logo"
+                          style={{ maxWidth: "50px", maxHeight: "50px" }}
+                        />
+                      </div>
+                      <div className="progress">
+                        <div
+                          className="progress-bar"
+                          role="progressbar"
+                          style={{ width: '100%' }}
+                          //aria-valuenow={skill.value}
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
                       </div>
                     </div>
                   </div>
@@ -287,6 +207,7 @@ class About extends React.Component {
               </div>
             </div>
           </div>
+        </div>
       </section>
     );
   }
